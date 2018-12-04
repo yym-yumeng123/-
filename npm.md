@@ -31,3 +31,23 @@ npm install http-server -g
 Usage:
   http-server [path] [options]
 ```
+
+#### 3. git-open: 打开github website
+
+```
+npm install --global git-open
+
+
+$ git open
+# opens https://github.com/TRACKED_REMOTE_USER/CURRENT_REPO/tree/CURRENT_BRANCH 
+ 
+$ git open someremote
+# opens https://github.com/PROVIDED_REMOTE_USER/CURRENT_REPO/tree/CURRENT_BRANCH 
+ 
+$ git open someremote somebranch
+# opens https://github.com/PROVIDED_REMOTE_USER/CURRENT_REPO/tree/PROVIDED_BRANCH 
+ 
+$ git open --issue
+# If branches use naming convention of issues/#123, 
+# opens https://github.com/TRACKED_REMOTE_USER/CURRENT_REPO/issues/123 
+```

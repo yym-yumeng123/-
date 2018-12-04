@@ -1,7 +1,7 @@
-#### npm常用工具包
+## npm常用工具包
 
 
-`1. nrm -- NPM registry manager`
+#### 1. nrm -- NPM registry manager
 ```
 $ npm install -g nrm
 ```
@@ -21,4 +21,13 @@ $ nrm ls
 $ nrm use cnpm  //switch registry to cnpm
 
     Registry has been set to: http://r.cnpmjs.org/
+```
+
+#### 2. http-server: a command-line http server
+
+```
+npm install http-server -g
+ 
+Usage:
+  http-server [path] [options]
 ```

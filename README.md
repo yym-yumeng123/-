@@ -72,7 +72,7 @@ better-scroll 是一款重点解决移动端（现已支持 PC 端）各种滚�
 
 npm isntall better-scroll
 ```
-[使用地址https://github.com/ustbhuangyi/better-scroll]()
+[使用地址](https://github.com/ustbhuangyi/better-scroll)
 
 #### 4-3 vue-lazyload
 ```

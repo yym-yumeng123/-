@@ -85,3 +85,12 @@ npm isntall better-scroll
 npm i vue-lazyload -S
 ```
 [使用地址](https://github.com/hilongjw/vue-lazyload)
+
+## 封装的一些包
+
+### 1. clonedeep
+```
+用于在javascript中克隆任何类型的数据结构的单个方法库！
+
+npm i clonedeep
+```

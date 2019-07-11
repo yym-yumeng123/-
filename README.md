@@ -94,3 +94,21 @@ npm i vue-lazyload -S
 
 npm i clonedeep
 ```
+
+
+### 2. js-cookie
+```
+一个简单，轻量级的JavaScript API，用于处理cookie
+
+npm i js-cookie
+
+使用 :
+
+Cookies.set('name', 'value');
+Cookies.set('name', 'value', { expires: 7 });
+
+Cookies.get('name'); // => 'value'
+Cookies.get('nothing'); // => undefined
+
+Cookies.remove('name');
+```

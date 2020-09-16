@@ -60,6 +60,19 @@ $ git open --issue
 tree 命令可以在 windows 上直接使用,
 ```
 
+#### 5. tree-node-cli
+```
+tree 文件
+
+$ npm install tree-node-cli
+# or globally 
+$ npm install -g tree-node-cli
+
+
+使用: -L 层级
+-I "xxx"  // 忽略文件
+```
+
 
 # Vue 常用npm包
 ### 1. fastclick
